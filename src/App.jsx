@@ -83,10 +83,6 @@ function App() {
                "src/assets/projects/fecom2.png",
                "src/assets/projects/fecom3.png", 
                "src/assets/projects/fecom4.png"],
-        
-
-
-      
     }
   ]
 
@@ -97,7 +93,7 @@ function App() {
       {/* Fixed Contact Buttons */}
       <div className="fixed right-6 top-1/2 transform -translate-y-1/2 z-50 flex flex-col gap-4">
         <motion.a
-          href="https://wa.me/5511999999999"
+          href="https://wa.me/5581998590287"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
@@ -257,7 +253,7 @@ function App() {
                 </div>
                 
                 <div className="flex flex-wrap gap-3 mb-8">
-                  {['JavaScript', 'React', 'Node.js', 'Python', 'SQL', 'Git', 'MongoDB', 'React Native'].map((tech) => (
+                  {['Python', 'SQL', 'MongoDB',   'HTML', 'CSS','ETL','APIs'].map((tech) => (
                     <Badge key={tech} className="bg-gradient-to-r from-pink-100 to-purple-100 text-purple-700 border border-pink-200 px-3 py-1">
                       {tech}
                     </Badge>
@@ -292,7 +288,7 @@ function App() {
                       <p className="text-gray-700">
                         Desenvolvimento Full Stack
                         <br />
-                        <span className="text-sm text-purple-600">Frontend & Backend</span>
+                        <span className="text-sm text-purple-600">Frontend | Backend | Dados</span>
                       </p>
                     </CardContent>
                   </Card>
@@ -343,7 +339,7 @@ function App() {
                     prevEl: `.swiper-button-prev-${index}`,
                   }}
                   loop={project.images.length > 1}
-                  className="w-full h-64 relative"
+                  className="w-full h-48 sm:h-56 md:h-64  lg:h-80 relative"
                 >
                   {project.images.map((img, i) => (
                     <SwiperSlide key={i}>
@@ -355,7 +351,7 @@ function App() {
                     </SwiperSlide>
                   ))}
 
-              {/* Botões personalizados */}
+    {/* Botões personalizados */}
 <div
   className={`swiper-button-prev-${index} absolute left-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 text-purple-600 hover:bg-purple-100 p-1.5 rounded-full shadow-sm z-10 cursor-pointer select-none`}
     style={{
@@ -474,7 +470,7 @@ function App() {
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <motion.a
-                href="mailto:julia.albertim@email.com"
+                href="mailto:juliaffalbertim@gmail.com"
                 className="flex flex-col items-center p-6 bg-white/70 backdrop-blur-sm rounded-2xl border border-pink-200 hover:border-purple-300 transition-all duration-300 shadow-lg hover:shadow-xl"
                 whileHover={{ scale: 1.05 }}
               >
@@ -482,11 +478,11 @@ function App() {
                   <Mail className="text-white" size={24} />
                 </div>
                 <h3 className="text-gray-800 font-semibold mb-2">Email</h3>
-                <p className="text-gray-600 text-sm">julia.albertim@email.com</p>
+                <p className="text-gray-600 text-sm">juliaffalbertim@gmail.com</p>
               </motion.a>
               
               <motion.a
-                href="https://linkedin.com/in/julia-albertim"
+                href="https://linkedin.com/in/júlia-albertim"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center p-6 bg-white/70 backdrop-blur-sm rounded-2xl border border-pink-200 hover:border-purple-300 transition-all duration-300 shadow-lg hover:shadow-xl"
@@ -496,11 +492,11 @@ function App() {
                   <Linkedin className="text-white" size={24} />
                 </div>
                 <h3 className="text-gray-800 font-semibold mb-2">LinkedIn</h3>
-                <p className="text-gray-600 text-sm">julia-albertim</p>
+                <p className="text-gray-600 text-sm">júlia-albertim</p>
               </motion.a>
               
               <motion.a
-                href="https://github.com/julia-albertim"
+                href="https://github.com/Julia-Albertim"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center p-6 bg-white/70 backdrop-blur-sm rounded-2xl border border-pink-200 hover:border-purple-300 transition-all duration-300 shadow-lg hover:shadow-xl"
@@ -510,11 +506,11 @@ function App() {
                   <Github className="text-white" size={24} />
                 </div>
                 <h3 className="text-gray-800 font-semibold mb-2">GitHub</h3>
-                <p className="text-gray-600 text-sm">julia-albertim</p>
+                <p className="text-gray-600 text-sm">júlia-albertim</p>
               </motion.a>
               
               <motion.a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5581998590287"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center p-6 bg-white/70 backdrop-blur-sm rounded-2xl border border-pink-200 hover:border-purple-300 transition-all duration-300 shadow-lg hover:shadow-xl"
@@ -524,7 +520,7 @@ function App() {
                   <MessageCircle className="text-white" size={24} />
                 </div>
                 <h3 className="text-gray-800 font-semibold mb-2">WhatsApp</h3>
-                <p className="text-gray-600 text-sm">(11) 99999-9999</p>
+                <p className="text-gray-600 text-sm">81 | 99859-0287</p>
               </motion.a>
             </div>
           </motion.div>
@@ -535,7 +531,7 @@ function App() {
       <footer className="py-8 bg-white border-t border-pink-200">
         <div className="container mx-auto px-6 text-center">
           <p className="text-gray-500 flex items-center justify-center gap-2">
-            © 2024 Julia Albertim. Feito com <Heart size={16} className="text-pink-500" /> e muito carinho.
+            © 2024 Julia Albertim. 
           </p>
         </div>
       </footer>

@@ -5,7 +5,7 @@ Site portfólio profissional desenvolvido em React com design feminino e moderno
 ## 🌸 Características
 
 - **Design Feminino**: Interface elegante com tons de rosa, roxo e lilás
-- **Foto Pessoal**: Espaço dedicado para sua foto na seção "Sobre Mim"
+- **Foto Pessoal**: Espaço dedicado para foto na seção "Sobre Mim"
 - **Screenshots de Projetos**: Área para imagens dos seus projetos
 - **Responsivo**: Compatível com desktop e dispositivos móveis
 - **Navegação Suave**: Scroll suave entre seções
@@ -236,6 +236,4 @@ portfolio-julia/
 - **Layout**: Bordas arredondadas e elementos mais orgânicos
 
 ---
-
-**Desenvolvido com 💜 para Julia Albertim**
 
