@@ -5,6 +5,19 @@ import { Badge } from '@/components/ui/badge.jsx'
 import { Github, Linkedin, Mail, Phone, ExternalLink, MessageCircle, User, Code, Briefcase, Contact, Heart, Sparkles, Camera } from 'lucide-react'
 import { motion } from 'framer-motion'
 import logo from './assets/logo.png'
+import selfie from './assets/Imagem do WhatsApp de 2025-06-19 à(s) 21.17.32_eed3e147.jpg'
+import climar1 from './assets/projects/climar1.png'
+import climar2 from './assets/projects/climar2.png'
+import climar3 from './assets/projects/climar3.png'
+import climar4 from './assets/projects/climar4.png'
+import climar5 from './assets/projects/climar5.png'
+import hubia1 from './assets/projects/hubia1.png'
+import fecom1 from './assets/projects/fecom1.png'
+import fecom2 from './assets/projects/fecom2.png'
+import fecom3 from './assets/projects/fecom3.png'
+import fecom4 from './assets/projects/fecom4.png'
+
+
 import './App.css'
 
 import { Navigation, Autoplay } from 'swiper/modules'
@@ -49,42 +62,28 @@ function App() {
       element.scrollIntoView({ behavior: 'smooth' })
     }
   }
-
-  const projects = [
-    {
-      title: "CliMar | Aplicação de Clima, Marés e previsões de Alagamentos",
-      description: "A aplicação CliMar é uma ferramenta web que usa dados oficiais da Marinha e da API OpenWeather para fornecer informações reais e em tempo real sobre clima, marés e cruzamento de dados para previsões de clima, marés e alagamentos.",
-      technologies: ["Python", "Flask", "Requests", "math", "HTML", "CSS", "JavaScript", "APIs"],
-      /*link: "https://github.com/Julia-Albertim/CliMar",*/
-      github: "https://github.com/Julia-Albertim/CliMar",
-     images: [
-     "src/assets/projects/climar1.png",
-     "src/assets/projects/climar2.png",
-     "src/assets/projects/climar3.png", 
-     "src/assets/projects/climar4.png" ,
-     "src/assets/projects/climar5.png"
-    ],
-    },
-    {
-      title: "HuB‑IA | Assistente Inteligente para Dados Públicos da Fecomércio",
-      description: "O HuB-IA é um assistente inteligente que usa IA para analisar dados públicos para Fecomércio e responder perguntas em linguagem natural com insights precisos.",
-      technologies: ["Pyhton", "Streamlit", "LLM", "Pandas", "SQlite","Chart.js"],
-      /*link: "https://github.com/RonierisonMaciel/hub-ia",*/
-      github: "https://github.com/RonierisonMaciel/hub-ia",
-      images: ["src/assets/projects/hubia1.png"],// Placeholder para screenshot
-    },
-    {
-      title: "Dashboard Analytics",
-      description: "Dashboard interativo em Power BI para visualização de métricas de negócio, com gráficos dinâmicos baseados em dados extraídos via processo ETL da Fecomércio PE.",
-      technologies: ["Power BI", "Python", "Pandas", "ETL", "CSV"],
-     /* link: "#",
-      github: "#",*/
-      images: ["src/assets/projects/fecom1.png",
-               "src/assets/projects/fecom2.png",
-               "src/assets/projects/fecom3.png", 
-               "src/assets/projects/fecom4.png"],
-    }
-  ]
+const projects = [
+  {
+    title: "CliMar | Aplicação de Clima, Marés e previsões de Alagamentos",
+    description: "A aplicação CliMar é uma ferramenta web que usa dados oficiais da Marinha e da API OpenWeather para fornecer informações reais e em tempo real sobre clima, marés e cruzamento de dados para previsões de clima, marés e alagamentos.",
+    technologies: ["Python", "Flask", "Requests", "math", "HTML", "CSS", "JavaScript", "APIs"],
+    github: "https://github.com/Julia-Albertim/CliMar",
+    images: [climar1, climar2, climar3, climar4, climar5],
+  },
+  {cl
+    title: "HuB‑IA | Assistente Inteligente para Dados Públicos da Fecomércio",
+    description: "O HuB-IA é um assistente inteligente que usa IA para analisar dados públicos para Fecomércio e responder perguntas em linguagem natural com insights precisos.",
+    technologies: ["Python", "Streamlit", "LLM", "Pandas", "SQLite", "Chart.js"],
+    github: "https://github.com/RonierisonMaciel/hub-ia",
+    images: [hubia1],
+  },
+  {
+    title: "Dashboard Analytics",
+    description: "Dashboard interativo em Power BI para visualização de métricas de negócio, com gráficos dinâmicos baseados em dados extraídos via processo ETL da Fecomércio PE.",
+    technologies: ["Power BI", "Python", "Pandas", "ETL", "CSV"],
+    images: [fecom1, fecom2, fecom3, fecom4],
+  }
+]
 
   return (
 
@@ -221,11 +220,11 @@ function App() {
               <div className="text-center lg:text-left">
                 <div className="relative inline-block mb-8">
                   <div className="w-80 h-80 mx-auto lg:mx-0 rounded-full bg-gradient-to-br from-pink-200 to-purple-200 flex items-center justify-center shadow-2xl">
-                    {/* Placeholder para foto - substitua por sua foto real */}
+              
                     <div className="w-72 h-72 rounded-full bg-white flex items-center justify-center">
                       <div className="text-center">
                         <img
-                            src="src/assets/Imagem do WhatsApp de 2025-06-19 à(s) 21.17.32_eed3e147.jpg"
+                            src={selfie} 
                             className="w-72 h-72 rounded-full object-cover"
                           />
                       </div>
