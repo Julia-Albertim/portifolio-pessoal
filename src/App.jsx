@@ -53,10 +53,10 @@ function App() {
   const projects = [
     {
       title: "CliMar | Aplicação de Clima, Marés e previsões de Alagamentos",
-      description: "A aplicação CliMar é uma ferramenta web que usa dados oficiais da Marinha e da API OpenWeather para fornecer informações reais e em tempo real sobre clima, marés e cruzaamento de dados para previsões de alagamentos.",
-      technologies: ["Python", "Flask", "Requests", "math", "HTML", "CSS", "JavaScript"],
-      link: "https://outstanding-gratitude-production-b33d.up.railway.app/login",
-      github: "#",
+      description: "A aplicação CliMar é uma ferramenta web que usa dados oficiais da Marinha e da API OpenWeather para fornecer informações reais e em tempo real sobre clima, marés e cruzamento de dados para previsões de clima, marés e alagamentos.",
+      technologies: ["Python", "Flask", "Requests", "math", "HTML", "CSS", "JavaScript", "APIs"],
+      /*link: "https://github.com/Julia-Albertim/CliMar",*/
+      github: "https://github.com/Julia-Albertim/CliMar",
      images: [
      "src/assets/projects/climar1.png",
      "src/assets/projects/climar2.png",
@@ -69,16 +69,16 @@ function App() {
       title: "HuB‑IA | Assistente Inteligente para Dados Públicos da Fecomércio",
       description: "O HuB-IA é um assistente inteligente que usa IA para analisar dados públicos para Fecomércio e responder perguntas em linguagem natural com insights precisos.",
       technologies: ["Pyhton", "Streamlit", "LLM", "Pandas", "SQlite","Chart.js"],
-      link: "https://github.com/RonierisonMaciel/hub-ia",
+      /*link: "https://github.com/RonierisonMaciel/hub-ia",*/
       github: "https://github.com/RonierisonMaciel/hub-ia",
       images: ["src/assets/projects/hubia1.png"],// Placeholder para screenshot
     },
     {
       title: "Dashboard Analytics",
       description: "Dashboard interativo em Power BI para visualização de métricas de negócio, com gráficos dinâmicos baseados em dados extraídos via processo ETL da Fecomércio PE.",
-      technologies: ["Power BI", "Python", "Pandas", "ETL"],
-      link: "#",
-      github: "#",
+      technologies: ["Power BI", "Python", "Pandas", "ETL", "CSV"],
+     /* link: "#",
+      github: "#",*/
       images: ["src/assets/projects/fecom1.png",
                "src/assets/projects/fecom2.png",
                "src/assets/projects/fecom3.png", 
