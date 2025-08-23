@@ -175,7 +175,7 @@ function App() {
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
               Estudante de Análise e Desenvolvimento de Sistemas
               <br />
-              <span className="text-purple-600">Apaixonada por tecnologia e inovação</span>
+              <span className="text-purple-600">Apaixonada por tecnologia e inovação </span>
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
