@@ -70,7 +70,7 @@ const projects = [
     github: "https://github.com/Julia-Albertim/CliMar",
     images: [climar1, climar2, climar3, climar4, climar5],
   },
-  {cl
+  {
     title: "HuB‑IA | Assistente Inteligente para Dados Públicos da Fecomércio",
     description: "O HuB-IA é um assistente inteligente que usa IA para analisar dados públicos para Fecomércio e responder perguntas em linguagem natural com insights precisos.",
     technologies: ["Python", "Streamlit", "LLM", "Pandas", "SQLite", "Chart.js"],
